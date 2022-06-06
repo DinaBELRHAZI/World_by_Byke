@@ -1,0 +1,2 @@
+class Velo < ApplicationRecord
+end
