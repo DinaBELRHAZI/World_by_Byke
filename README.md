@@ -1,24 +1,28 @@
-# README
+# World by Bike
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+World by Bike est une application réalisée avec Ruby on Rails.
 
-Things you may want to cover:
+Elle est composée de deux partie :
+* Leaflet 
+* CRUD
 
-* Ruby version
+##Gestion des loueurs (CRUD)
 
-* System dependencies
+Cette application est connectée à une base de donnée MySQL (velos.csv).
 
-* Configuration
+Cette partie permet la gestion des loueurs de vélos.
 
-* Database creation
+Il est possible d'afficher, modifier, supprimer les informations des loueurs.
 
-* Database initialization
+![list](app/assets/images/list_loueurs.PNG)
 
-* How to run the test suite
+![details](app/assets/images/details.PNG)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+##Maps
+
+Cette cartographie ressence les loueurs de vélos enregistrés dans une api (https://api.citybik.es/v2/networks)
+et dans la base de données (velos.csv)
+
+![maps](app/assets/images/maps.PNG)
